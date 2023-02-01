@@ -11,9 +11,9 @@ const Landing = () => {
             <div className="presentacion-texto">
                 <h1>Constanza Guimaraez</h1>
                 <h2>INGENIERÍA QUÍMICA & DESARROLLO DE SOFTWARE</h2>
-                <p>¡Hola! Soy Constanza. Estudio Ingeniería Química pero también hago desarrollo IT. Estoy buscando construir mi carrera pro0fesional en la intersección de estos mundos, trabajando en proyectos que utilicen la tecnología para optimizar procesos, mejorar la calidad de vida de las personas y construir un mundo más sustentable. Por esto, tengo un gran interés en la biotecnología, el área que engloba mis dos pasiones. Además, estoy interesada en la investigación científica y en colaborar en proyectos que contribuyan al avance de conocimiento en esta área</p>
+                <p>¡Hola! Soy Constanza. Estudio Ingeniería Química pero también hago desarrollo IT. Estoy buscando construir mi carrera profesional en la intersección de estos mundos, trabajando en proyectos que utilicen la tecnología para optimizar procesos, mejorar la calidad de vida de las personas y construir un mundo más sustentable. Por esto, tengo un gran interés en la biotecnología, el área que engloba mis dos pasiones. Además, estoy interesada en la investigación científica y en colaborar en proyectos que contribuyan al avance de conocimiento en esta área</p>
             </div>
-        </section>
+        </section> 
 
         <section className="why">
             <h1> Pero... ¿por qué estos campos?</h1>

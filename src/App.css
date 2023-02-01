@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
+*{
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  font-family: var(--texto);
+  font-size: 16px;
+  line-height: 26px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-size: 48px;
+  font-family: var(--titulos);
+  font-weight: 700;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+:root{
+  /*Colores*/
+  --blue: #012340;
+  --dark-green: #025939;
+  --medium-green: #027333;
+  --strong-green: #03A63C;
+  --white: #f5f5f5;
+
+  /*Fuentes*/
+  --titulos: 'Montserrat', sans-serif;
+  --texto:  'Lato', serif;
+}
+
+/*Area presentacion*/
+
+.presentacion{
+  background-color: var(--white);
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 4em 0em;
+  
+  
+  
 }
 
-.App-link {
-  color: #61dafb;
+.presentacion-img{
+  background-color: red;
+  border-radius: 500px;
+  margin:2em;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.presentacion-texto{
+  float: right;
+  max-width: 70%;
+  padding: 2em;
+} 
+
+.presentacion-texto h1{
+  color: var(--dark-green);
+  margin-bottom: 0.2em;
+  
 }
+.presentacion-texto h2{
+  font-size: 26px;
+  font-family: var(--titulos);
+  font-weight: 400;
+  color: var(--strong-green);
+  margin-bottom: 0.2em;
+  
+  
+}
+
+/*Area Why*/
+.why{
+  background-color: var(--blue);
+  padding: 4em;
+
+}
+
+.why h1{
+  color: var(--strong-green);
+  margin-bottom: 1em;
+}
+.why p{
+  color: var(--white)
+}
+
+/*Area proyectos*/
+
+.proyectos{
+  background-color: var(white);
+  padding: 2em;
+}
+
+.proyectos h1{
+  text-align: center;
+  color: var(--dark-green);
+}
+
+
+
