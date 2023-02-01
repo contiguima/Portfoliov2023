@@ -2,12 +2,25 @@ import Navbar from "../components/Navbar";
 import Proyecto from "../components/Proyecto";
 import Certificacion from "../components/Certificacion";
 import Footer from "../components/Footer";
+import profilepic from "../archivos/imagenes/php.jpg"
+import htmlLogo from "../archivos/logos/html.png"
+import cssLogo from "../archivos/logos/css.png"
+import jsLogo from "../archivos/logos/js.png"
+import reactLogo from "../archivos/logos/react.png"
+import matlabLogo from "../archivos/logos/matlab.png"
+
+
+
+
+
 
 const Landing = () => {
     return <>
         <Navbar/>
         <section className= "presentacion">
-            <div className = "presentacion-img"></div>
+            <div className = "presentacion-img">
+                <img src={profilepic} alt="Imagen de Constanza Guimaraez"/>
+            </div>
             <div className="presentacion-texto">
                 <h1>Constanza Guimaraez</h1>
                 <h2>INGENIERÍA QUÍMICA & DESARROLLO DE SOFTWARE</h2>
@@ -30,11 +43,13 @@ const Landing = () => {
                     link = "www.github.com"
                     />
             </div>
-        </section>
+        </section> 
         
         <section className="educacion" id="educacion">
-            <h1> Educacion </h1>
+            
+            <div className="educacion-flex">
             <div className="educacion-facultad">
+                <h1> Educacion </h1>
                 <h2>INGENIERÍA QUÍMICA</h2>
                 <h3>Universidad Nacional de Misiones - 2021 a 2025 </h3>
                 <p>Orientación en Biotecnología. Actualmente cursando tercer año, con el 30% de las materias de la carrera aprobadas. Dentro de mis actividades en la facultad, pertenezco a un grupo de invesgación del Laboratorio de Materiales, donde se evalúan las propiedades físico-químicas de moléculas, alimentos, plásticos y otros para ser utilizados en envases, bolsas y diversos materiales. También formo parte de la Asociación Misionera de Estudiantes de Ingeniería Química (AMEIQ)</p>
@@ -46,6 +61,7 @@ const Landing = () => {
                     empresa_fecha= "Google - agosto 2022"
                     descripcion = "Aprendi sobre HTML"/>
 
+            </div>
             </div>
             <div className="educacion-idiomas">
                 <h2>IDIOMAS</h2>
@@ -59,6 +75,22 @@ const Landing = () => {
 
         <section className="stack" id="stack">
             <h1>Stack</h1>
+            <div className="stack-img-container">
+                <h2>Desarrollo de software</h2>
+                <div className="stack-desarrollo">
+                    <img src={htmlLogo} alt="html,logo"/>
+                    <img src={cssLogo} alt="css, logo"/>
+                    <img src={jsLogo} alt="javascript, logo"/>
+                    <img src={reactLogo} alt="react, logo"/>
+                </div>
+            </div>
+            <div className="stack-img-container">
+            
+            <h2>Ciencia e investigación</h2>
+            <div className="stack-ciencia">
+            <img src={matlabLogo} alt="matlab, logo"/>
+            </div>
+            </div>
         </section>
 
         <section className="contacto" id="contacto">

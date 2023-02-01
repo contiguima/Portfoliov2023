@@ -37,18 +37,17 @@ h1{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 4em 0em;
+    
   
   
   
 }
 
-.presentacion-img{
-  background-color: red;
+.presentacion-img img{
   border-radius: 500px;
   margin:2em;
-  width: 200px;
-  height: 200px;
+  max-width: 240px;
+  max-height: 240px;
   float: left;
 }
 
@@ -91,7 +90,7 @@ h1{
 /*Area proyectos*/
 
 .proyectos{
-  background-color: var(white);
+  background-color: var(--white);
   padding: 2em;
 }
 
@@ -101,4 +100,108 @@ h1{
 }
 
 
+/*Area educacion*/
 
+.educacion{
+  background-color: var(--blue);
+  padding: 2em;
+ 
+}
+
+.educacion h1{
+  color: var(--strong-green);
+  margin-bottom: 0.2em;
+}
+.educacion h2{
+  color: var(--strong-green);
+  margin-bottom: 0.2em;
+  font-size: 26px;
+}
+
+.educacion h3{
+  color: var(--medium-green);
+  margin-bottom: 0.2em;
+  font-family: var(--titulos);
+  font-size: 22px;
+}
+
+.educacion p, li{
+  color: var(--white);
+}
+
+.educacion-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.educacion-facultad{
+  float:left;
+  max-width: 70%;
+}
+
+.educacion-certificaciones{
+  float:right;
+  justify-content: flex-end;
+  text-align: right;
+  
+}
+
+/*Area Stack*/
+.stack{
+  background-color: var(--white);
+  padding: 2em;
+  text-align: center;
+  color: var(--dark-green)
+}
+
+.stack-img-container{
+  margin-top: 2em;
+  justify-content: space-between;
+  padding: 2em;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.stack-img-container img{
+  max-width: auto;
+  max-height: 150px;
+
+}
+
+.stack-desarrollo, .stack-ciencia h2{
+  color:var(--strong-green);
+  font-family: var(--titulos);
+  text-align: left;
+  max-width: 100%;
+
+
+}
+
+
+
+/*Area contacto*/
+
+.contacto{
+  background-color: var(--blue);
+  padding: 2em;
+  text-align: center;
+  color: var(--strong-green)
+}
+
+button{
+  border-radius: 50px;
+  padding: 1em 2em;
+  color:var(--white);
+  font-family: var(--texto);
+  background-color: var(--medium-green);
+  border:0;
+  margin: 0.5em;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--strong-green);
+ 
+}
