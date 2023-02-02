@@ -150,7 +150,7 @@ h1{
 /*Area Stack*/
 .stack{
   background-color: var(--white);
-  padding: 2em;
+  padding: 4em;
   text-align: center;
   color: var(--dark-green)
 }
@@ -158,7 +158,7 @@ h1{
 .stack-img-container{
   margin-top: 2em;
   justify-content: space-between;
-  padding: 2em;
+
   display:flex;
   flex-wrap: wrap;
 
@@ -167,16 +167,15 @@ h1{
 .stack-img-container img{
   max-width: auto;
   max-height: 150px;
+  margin: 0.6em;
 
 }
 
-.stack-desarrollo, .stack-ciencia h2{
+.stack h2{
+  margin: 1em;
   color:var(--strong-green);
   font-family: var(--titulos);
-  text-align: left;
-  max-width: 100%;
-
-
+  text-align: left; 
 }
 
 

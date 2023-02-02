@@ -75,21 +75,21 @@ const Landing = () => {
 
         <section className="stack" id="stack">
             <h1>Stack</h1>
-            <div className="stack-img-container">
+            
                 <h2>Desarrollo de software</h2>
-                <div className="stack-desarrollo">
+            <div className="stack-img-container">
                     <img src={htmlLogo} alt="html,logo"/>
                     <img src={cssLogo} alt="css, logo"/>
                     <img src={jsLogo} alt="javascript, logo"/>
                     <img src={reactLogo} alt="react, logo"/>
-                </div>
+                
             </div>
-            <div className="stack-img-container">
+            
             
             <h2>Ciencia e investigación</h2>
-            <div className="stack-ciencia">
+            <div className="stack-img-container">
             <img src={matlabLogo} alt="matlab, logo"/>
-            </div>
+            
             </div>
         </section>
 
