@@ -2,12 +2,15 @@ import Navbar from "../components/Navbar";
 import Proyecto from "../components/Proyecto";
 import Certificacion from "../components/Certificacion";
 import Footer from "../components/Footer";
-import profilepic from "../archivos/imagenes/php.jpg"
-import htmlLogo from "../archivos/logos/html.png"
-import cssLogo from "../archivos/logos/css.png"
-import jsLogo from "../archivos/logos/js.png"
-import reactLogo from "../archivos/logos/react.png"
-import matlabLogo from "../archivos/logos/matlab.png"
+import profilepic from "../archivos/imagenes/php.jpg";
+import htmlLogo from "../archivos/logos/html.png";
+import cssLogo from "../archivos/logos/css.png";
+import jsLogo from "../archivos/logos/js.png";
+import reactLogo from "../archivos/logos/react.png";
+import matlabLogo from "../archivos/logos/matlab.png";
+import excelLogo from "../archivos/logos/excel.png";
+import latexLogo from "../archivos/logos/latex.png";
+import calculadoraImg from "../archivos/imagenes/calculadoraProyecto.jpg"
 
 
 
@@ -36,12 +39,17 @@ const Landing = () => {
         <section className="proyectos" id="proyectos">
             <h1>Últimos proyectos</h1>
             <div className="proyectos-carrusel">
+                <button className="flecha">←</button>
                 <Proyecto
-                    nombre= "Proyecto.Ejemplo"
-                    stack = "HTML - CSS"
-                    descripcion = "Este es un texto corto que contiene el proyecto"
-                    link = "www.github.com"
+                    nombre= "Calculadora de masa molar"
+                    img = {calculadoraImg}
+                    stack = "HTML - CSS - JavaScript"
+                    descripcion = "Su funcionalidad es calcular la masa molecular de los compuestos químicos ingresados por el usuario.Se utilizó un objeto JSON para almacenar los datos y se los muestra en la página con una tabla HTML"
+                    linkRepo = "https://github.com/contiguima/MasaMolecular"
+                    linkDeploy = "https://calculadoraquimica.netlify.app/"
                     />
+                <button className="flecha">→</button>
+
             </div>
         </section> 
         
@@ -89,6 +97,10 @@ const Landing = () => {
             <h2>Ciencia e investigación</h2>
             <div className="stack-img-container">
             <img src={matlabLogo} alt="matlab, logo"/>
+            <img src={excelLogo} alt="excel, logo"/>
+            <img src={latexLogo} alt="latex, logo"/>
+
+
             
             </div>
         </section>

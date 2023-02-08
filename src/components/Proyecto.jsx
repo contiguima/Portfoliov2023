@@ -1,13 +1,16 @@
+import "../stylesheets/proyecto.css"
+import { Link } from "react-router-dom";
 
 const Proyecto = (props) => {
     return<>
-    <div className="proyecto-card">
-        <div className ="proyecto-img">
+    <div className ="proyecto-img" href={props.linkDeploy}>
+        <img src={props.img} alt="Imagen alusiva al proyecto"/>
+        <div className="proyecto-card">
             <div className="proyecto-info">
                 <h2>{props.nombre}</h2>
                 <h4>{props.stack}</h4>
                 <p>{props.descripcion}</p>
-                <a href={props.link}>Repo: {props.link} </a>
+                <a target="_blank" href={props.linkRepo}>Repo: {props.linkRepo} </a>
             </div>
         </div>
     </div>

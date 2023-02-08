@@ -3,7 +3,7 @@
   margin:0;
 }
 
-p{
+p, li{
   font-family: var(--texto);
   font-size: 16px;
   line-height: 26px;
@@ -98,6 +98,14 @@ h1{
   text-align: center;
   color: var(--dark-green);
 }
+.proyectos-carrusel {
+  display:flex;
+  justify-content: center;
+  padding: 2em;
+  flex-direction: row;
+}
+
+
 
 
 /*Area educacion*/

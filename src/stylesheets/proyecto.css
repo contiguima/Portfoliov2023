@@ -1,0 +1,35 @@
+.proyecto-card{
+    max-width: 400px;
+    max-height: 400px;
+    background-color: var(--strong-green);
+    opacity: 0.8;
+    font-family: var(--texto);
+    color: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding: 2em;
+    
+  }
+
+.proyecto-card:hover{
+ cursor: pointer;
+  }
+
+.proyecto-img img{
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    object-fit: cover;
+    max-height: max(10rem, 30vh);
+    
+  }
+  .proyecto-img :hover{
+    cursor:pointer;
+    
+  }
+
+.proyecto-info a{
+    
+    color: var(--white);
+    
+    
+  }
