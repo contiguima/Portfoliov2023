@@ -10,14 +10,38 @@ import reactLogo from "../archivos/logos/react.png";
 import matlabLogo from "../archivos/logos/matlab.png";
 import excelLogo from "../archivos/logos/excel.png";
 import latexLogo from "../archivos/logos/latex.png";
-import calculadoraImg from "../archivos/imagenes/calculadoraProyecto.jpg"
-
-
+import Slider from "../components/Slider";
 
 
 
 
 const Landing = () => {
+    const proyectosArr = [
+        <Proyecto
+          nombre="Vita"
+          stack="React - Firebase"
+          texto="MVP web que busca conectar pacientes y médicos y unificar espacio de consultas, historia clínica y sistema de turnos"
+          repo="https://github.com/contiguima/Vita"
+          deploy="https://vitaditella.netlify.app/"
+          imagen="https://i.pinimg.com/564x/d3/7a/c0/d37ac005bf1bbb1f9952c5ad71272533.jpg"
+        />,
+        <Proyecto
+          nombre="Calculadora masa molar"
+          stack="HTML- CSS - JavaScript"
+          texto="Web para calcular la masa molar de compuestos químicos. "
+          repo="https://github.com/contiguima/MasaMolecular"
+          deploy="https://calculadoraquimica.netlify.app/"
+          imagen="https://i.pinimg.com/564x/89/d7/a6/89d7a67c21670110ecab1d82793d7be6.jpg"
+        />,
+        <Proyecto
+          nombre="LegalVerse"
+          stack="React - Firebase"
+          texto="Web que conecta abogados y clientes. Landing page y análisis de documentos"
+          repo="https://github.com/contiguima/LegalVerseVf"
+          deploy="https://legalverse.ar/"
+          imagen="https://i.pinimg.com/564x/78/4e/b0/784eb01df305e91f1eecccab2581627d.jpg"
+        />
+      ];
     return <>
         <Navbar/>
         <section className= "presentacion">
@@ -38,19 +62,7 @@ const Landing = () => {
 
         <section className="proyectos" id="proyectos">
             <h1>Últimos proyectos</h1>
-            <div className="proyectos-carrusel">
-                <button className="flecha">←</button>
-                <Proyecto
-                    nombre= "Calculadora de masa molar"
-                    img = {calculadoraImg}
-                    stack = "HTML - CSS - JavaScript"
-                    descripcion = "Su funcionalidad es calcular la masa molecular de los compuestos químicos ingresados por el usuario.Se utilizó un objeto JSON para almacenar los datos y se los muestra en la página con una tabla HTML"
-                    linkRepo = "https://github.com/contiguima/MasaMolecular"
-                    linkDeploy = "https://calculadoraquimica.netlify.app/"
-                    />
-                <button className="flecha">→</button>
-
-            </div>
+            <Slider proyectos={proyectosArr} />
         </section> 
         
         <section className="educacion" id="educacion">
