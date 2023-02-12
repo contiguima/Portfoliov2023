@@ -51,13 +51,13 @@ const Landing = () => {
             <div className="presentacion-texto">
                 <h1>Constanza Guimaraez</h1>
                 <h2>INGENIERÍA QUÍMICA & DESARROLLO DE SOFTWARE</h2>
-                <p>¡Hola! Soy Constanza. Estudio Ingeniería Química pero también hago desarrollo IT. Estoy buscando construir mi carrera profesional en la intersección de estos mundos, trabajando en proyectos que utilicen la tecnología para optimizar procesos, mejorar la calidad de vida de las personas y construir un mundo más sustentable. Por esto, tengo un gran interés en la biotecnología, el área que engloba mis dos pasiones. Además, estoy interesada en la investigación científica y en colaborar en proyectos que contribuyan al avance de conocimiento en esta área</p>
+                <p>¡Hola! Soy Constanza. Estudio Ingeniería Química pero también hago desarrollo IT. Estoy buscando construir mi carrera profesional en la intersección de estos mundos, trabajando en proyectos que utilicen la tecnología para optimizar procesos, mejorar la calidad de vida de las personas y construir un mundo más sustentable. Por esto, tengo un gran interés en la biotecnología porque es el área que engloba mis dos pasiones. Además, estoy interesada en la investigación científica y en colaborar en proyectos que contribuyan al avance del conocimiento en esta área.</p>
             </div>
         </section> 
 
         <section className="why">
             <h1> Pero... ¿por qué estos campos?</h1>
-            <p>Desde muy chica me interesó la ciencia y entender como funcionan las cosas. Me declaré la primera ambientalista a los siete años con un proyecto escolar para concientizar sobre la importancia de recoger los papeles del suelo. Después, me convertí en lectora de etiquetas profesional: alimentos, perfumes, productos de limpieza; quería saber qué tenía cada cosa y por qué. Más adelante, me empezó a intrigar el funcionamiento de las máquinas y, en particular, de las aplicaciones y sitios webs que fueron protagonistas de mi adolescencia. A la hora de elegir que estudiar, no sabía muy bien a que lado inclinarme, ya que seguía apasionándome por la ciencia, el cuidado ambiental y el conocimiento informático. Más adelantr, noté que no tenía por qué escoger solo una y descartar las otras: el mundo de la biotecnología está en su auge y, a mi parecer, es la forma de encontrar un equilibrio entre el avance tecnológico, la biología y el cuidado ambiental, que muchas veces se ven como opuestos. </p>
+            <p>Desde muy chica me interesó la ciencia y entender cómo funcionan las cosas. Me declaré la primera ambientalista a los 7 años con un proyecto escolar para concientizar sobre la importancia de recoger los papeles del suelo. Después, me convertí en lectora de etiquetas profesional: alimentos, perfumes, productos de limpieza; quería saber qué tenía cada cosa y por qué. Más adelante, me empezó a intrigar el funcionamiento de las máquinas y, en particular, de las aplicaciones y sitios web que fueron protagonistas de mi adolescencia. A la hora de elegir qué estudiar, no sabía muy bien a qué lado inclinarme, ya que seguía apasionándome por la ciencia, el cuidado ambiental y el conocimiento informático. Más tarde, noté que no tenía por qué escoger solo una y descartar las otras: el mundo de la biotecnología está en su auge y, a mi parecer, es la forma de encontrar un equilibrio entre el avance tecnológico y el cuidado ambiental, que muchas veces se ven como opuestos.</p>
         </section>
 
         <section className="proyectos" id="proyectos">
@@ -67,7 +67,7 @@ const Landing = () => {
         
         <section className="educacion" id="educacion">
             
-            <div className="educacion-flex">
+            
             <div className="educacion-facultad">
                 <h1> Educacion </h1>
                 <h2>INGENIERÍA QUÍMICA</h2>
@@ -82,7 +82,7 @@ const Landing = () => {
                     descripcion = "Aprendi sobre HTML"/>
 
             </div>
-            </div>
+            
             <div className="educacion-idiomas">
                 <h2>IDIOMAS</h2>
                 <ul>
@@ -115,6 +115,10 @@ const Landing = () => {
 
             
             </div>
+        </section>
+        <section className="experiencia" id="experiencia">
+            <h1>Experiencia</h1>
+            
         </section>
 
         <section className="contacto" id="contacto">

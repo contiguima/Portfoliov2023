@@ -107,13 +107,14 @@ h1{
 
 .educacion{
   background-color: var(--blue);
-  padding: 2em;
+  padding: 4em;
  
 }
 
 .educacion h1{
   color: var(--strong-green);
   margin-bottom: 0.2em;
+  font-size: 36px
 }
 .educacion h2{
   color: var(--strong-green);
@@ -132,23 +133,8 @@ h1{
   color: var(--white);
 }
 
-.educacion-flex{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
-.educacion-facultad{
-  float:left;
-  max-width: 70%;
-}
 
-.educacion-certificaciones{
-  float:right;
-  justify-content: flex-end;
-  text-align: right;
-  
-}
 
 /*Area Stack*/
 .stack{
@@ -169,7 +155,7 @@ h1{
 
 .stack-img-container img{
   max-width: auto;
-  max-height: 150px;
+  max-height: 120px;
   margin: 0.6em;
 
 }
@@ -181,15 +167,27 @@ h1{
   text-align: left; 
 }
 
+/*Area experiencia*/
 
+.experiencia{
+  background-color: var(--blue);
+  padding: 2em;
+  text-align: center;
+ 
+}
+
+.experiencia h1{
+  color: var(--strong-green);
+ 
+}
 
 /*Area contacto*/
 
 .contacto{
-  background-color: var(--blue);
+  background-color: var(--white);
   padding: 2em;
   text-align: center;
-  color: var(--strong-green)
+  color: var(--dark-green)
 }
 
 button{
