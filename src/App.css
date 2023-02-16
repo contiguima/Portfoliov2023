@@ -1,207 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap');
-*{
-  margin:0;
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;700&display=swap");
+* {
+  margin: 0;
 }
 
-p, li{
+p,
+li {
   font-family: var(--texto);
   font-size: 16px;
   line-height: 26px;
 }
 
-h1{
+h1 {
   font-size: 48px;
   font-family: var(--titulos);
   font-weight: 700;
-  
 }
 
-:root{
+:root {
   /*Colores*/
   --blue: #012340;
   --dark-green: #025939;
   --medium-green: #027333;
-  --strong-green: #03A63C;
+  --strong-green: #03a63c;
   --white: #f5f5f5;
 
   /*Fuentes*/
-  --titulos: 'Montserrat', sans-serif;
-  --texto:  'Lato', serif;
+  --titulos: "Montserrat", sans-serif;
+  --texto: "Lato", serif;
 }
 
 /*Area presentacion*/
 
-.presentacion{
+.presentacion {
   background-color: var(--white);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-    
-  
-  
-  
 }
 
-.presentacion-img img{
+.presentacion-img img {
   border-radius: 500px;
-  margin:2em;
+  margin: 2em;
   max-width: 240px;
   max-height: 240px;
   float: left;
 }
 
-.presentacion-texto{
+.presentacion-texto {
   float: right;
   max-width: 70%;
   padding: 2em;
-} 
+}
 
-.presentacion-texto h1{
+.presentacion-texto h1 {
   color: var(--dark-green);
   margin-bottom: 0.2em;
-  
 }
-.presentacion-texto h2{
+.presentacion-texto h2 {
   font-size: 26px;
   font-family: var(--titulos);
   font-weight: 400;
   color: var(--strong-green);
   margin-bottom: 0.2em;
-  
-  
 }
 
 /*Area Why*/
-.why{
+.why {
   background-color: var(--blue);
   padding: 4em;
-
 }
 
-.why h1{
+.why h1 {
   color: var(--strong-green);
   margin-bottom: 1em;
 }
-.why p{
-  color: var(--white)
+.why p {
+  color: var(--white);
 }
 
 /*Area proyectos*/
 
-.proyectos{
+.proyectos {
   background-color: var(--white);
   padding: 2em;
 }
 
-.proyectos h1{
+.proyectos h1 {
   text-align: center;
   color: var(--dark-green);
-  
 }
-
-
-
 
 /*Area educacion*/
 
-.educacion{
+.educacion {
   background-color: var(--blue);
   padding: 4em;
- 
 }
 
-.educacion h1{
+.educacion h1 {
   color: var(--strong-green);
   margin-bottom: 0.2em;
-  font-size: 36px
+  font-size: 36px;
 }
-.educacion h2{
+.educacion h2 {
   color: var(--strong-green);
   margin-bottom: 0.2em;
   font-size: 26px;
 }
 
-.educacion h3{
+.educacion h3 {
   color: var(--medium-green);
   margin-bottom: 0.2em;
   font-family: var(--titulos);
   font-size: 22px;
 }
 
-.educacion p, li{
+.educacion p,
+li {
   color: var(--white);
 }
 
-
-
-
 /*Area Stack*/
-.stack{
+.stack {
   background-color: var(--white);
   padding: 4em;
   text-align: center;
-  color: var(--dark-green)
+  color: var(--dark-green);
 }
 
-.stack-img-container{
+.stack-img-container {
   margin-top: 2em;
   justify-content: space-between;
 
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
-
 }
 
-.stack-img-container img{
+.stack-img-container img {
   max-width: auto;
   max-height: 120px;
   margin: 0.6em;
-
 }
 
-.stack h2{
+.stack h2 {
   margin: 1em;
-  color:var(--strong-green);
+  color: var(--strong-green);
   font-family: var(--titulos);
-  text-align: left; 
+  text-align: left;
 }
 
 /*Area experiencia*/
 
-.experiencia{
+.experiencia {
   background-color: var(--blue);
   padding: 2em;
   text-align: center;
- 
 }
 
-.experiencia h1{
+.experiencia h1 {
   color: var(--strong-green);
- 
 }
 
 /*Area contacto*/
 
-.contacto{
+.contacto {
   background-color: var(--white);
   padding: 2em;
   text-align: center;
-  color: var(--dark-green)
+  color: var(--dark-green);
 }
 
-button{
+.contacto-img-container {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.contacto-img-container img {
+  max-height: 60px;
+  max-width: auto;
+}
+
+.contacto-img-container img:hover {
+  cursor: pointer;
+  transform: translateY(-8px);
+}
+
+button {
   border-radius: 50px;
   padding: 1em 2em;
-  color:var(--white);
+  color: var(--white);
   font-family: var(--texto);
   background-color: var(--medium-green);
-  border:0;
+  border: 0;
   margin: 0.5em;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: var(--strong-green);
- 
 }
