@@ -131,8 +131,7 @@ li {
 
 .stack-img-container {
   margin-top: 2em;
-  justify-content: space-between;
-
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
 }
@@ -161,6 +160,15 @@ li {
 .experiencia h1 {
   color: var(--strong-green);
 }
+.experiencia p {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.experiencia img {
+  max-height: 200px;
+  padding: 2em;
+}
 
 /*Area contacto*/
 
@@ -188,7 +196,7 @@ li {
   transform: translateY(-8px);
 }
 
-button {
+.btn {
   border-radius: 50px;
   padding: 1em 2em;
   color: var(--white);
@@ -197,8 +205,9 @@ button {
   border: 0;
   margin: 0.5em;
   cursor: pointer;
+  text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
   background-color: var(--strong-green);
 }

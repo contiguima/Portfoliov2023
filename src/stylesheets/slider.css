@@ -1,25 +1,29 @@
 .slider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding:2em;
-  }
-  
-  .prev,
-  .next {
-    background: var(--dark-green);
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
-  
-  .prev {
-    margin-right: 1rem;
-  }
-  
-  .next {
-    margin-left: 1rem;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+
+.prev,
+.next {
+  background: var(--dark-green);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--white);
+}
+.prev:hover,
+.next:hover {
+  background: var(--strong-green);
+}
+
+.prev {
+  margin-right: 1rem;
+}
+
+.next {
+  margin-left: 1rem;
+}
