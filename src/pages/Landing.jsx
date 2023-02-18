@@ -14,6 +14,8 @@ import twitterLogo from "../archivos/logos/twitter.png";
 import linkedinLogo from "../archivos/logos/linkedin.png";
 import gmailLogo from "../archivos/logos/mail.png";
 import githubLogo from "../archivos/logos/github.png";
+import CV from "../archivos/CV.pdf";
+import construccionImg from "../archivos/imagenes/construccion.png";
 import Slider from "../components/Slider";
 
 const Landing = () => {
@@ -148,6 +150,8 @@ const Landing = () => {
       </section>
       <section className="experiencia" id="experiencia">
         <h1>Experiencia</h1>
+        <img src={construccionImg} alt="en construccion" />
+        <p> Sección en construcción... </p>
       </section>
 
       <section className="contacto" id="contacto">
@@ -182,7 +186,9 @@ const Landing = () => {
             <img src={twitterLogo} alt="twitter, logo" />
           </a>
         </div>
-        <button>Descargar CV</button>
+        <a className="btn" href={CV} target="_blank" rel="noreferrer">
+          Descargar CV
+        </a>
       </section>
 
       <Footer />
