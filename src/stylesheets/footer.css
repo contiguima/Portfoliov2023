@@ -3,3 +3,16 @@
   padding: 2em;
   color: var(--white);
 }
+.ftr li {
+  list-style: none;
+}
+.ftr a {
+  text-decoration: none;
+}
+.ftr a:hover {
+  color: var(--strong-green);
+}
+
+.ftr p {
+  text-align: center;
+}
