@@ -112,16 +112,27 @@ const Landing = () => {
           </p>
         </div>
         <div className="educacion-certificaciones">
+          <br />
           <h1>Certificaciones</h1>
           <Certificacion
             nombre="Desarrollo Web Fullstack"
             empresa_fecha="Alchemit - junio 2022"
-            descripcion=" C#, .NET , SQL, Entity Framework. También se vieron principios de HTML, DOM y JavaScript. El proyecto final fue un sistema universitario que permitía el acceso de profesores y alumnos, la calificación e inscripción a materias, entre otras funcionalidades"
+            descripcion=" C#, .NET , SQL, Entity Framework. También se vieron principios de HTML, DOM y JavaScript. El proyecto final fue un sistema universitario que permitía el acceso de profesores y alumnos, la calificación e inscripción a materias, entre otras funcionalidades."
+          />
+          <Certificacion
+            nombre="First Certificate in English"
+            empresa_fecha="Cambridge - enero 2022"
+            descripcion="Obtuve una calificación B en el examen internacional."
+          />
+          <Certificacion
+            nombre="Curso Introductorio a Python"
+            empresa_fecha="ITBA - mayo 2021"
+            descripcion="Introducción a programación y estructuras de datos básicas, así como también funciones y otros."
           />
         </div>
 
         <div className="educacion-idiomas">
-          <h2>IDIOMAS</h2>
+          <h1>Idiomas</h1>
           <ul>
             <li>Español - Nativo</li>
             <li> Inglés - Nivel C1 </li>
