@@ -114,9 +114,9 @@ const Landing = () => {
         <div className="educacion-certificaciones">
           <h1>Certificaciones</h1>
           <Certificacion
-            nombre="Curso1"
-            empresa_fecha="Google - agosto 2022"
-            descripcion="Aprendi sobre HTML"
+            nombre="Desarrollo Web Fullstack"
+            empresa_fecha="Alchemit - junio 2022"
+            descripcion=" C#, .NET , SQL, Entity Framework. También se vieron principios de HTML, DOM y JavaScript. El proyecto final fue un sistema universitario que permitía el acceso de profesores y alumnos, la calificación e inscripción a materias, entre otras funcionalidades"
           />
         </div>
 
