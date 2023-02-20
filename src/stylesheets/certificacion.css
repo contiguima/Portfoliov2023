@@ -1,0 +1,9 @@
+.certificacion-card {
+  padding: 1em 0;
+}
+
+.certificacion-card h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
